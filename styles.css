@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color:#000080;
+    background-color: #080328;
+    /* margin-right:2%;
+    margin-left:2%; */
+}
+
+.Cuatro
+{
+    background-color: #000000;
+    height: 30%;
+    width: 100%;
+    object-fit: cover;
+}
+.team>div{
+    line-height: 300%;
+    font-size:130%;
+    /* margin-bottom:1.5%; */   
+}
+
+.team>div>hr{
+    margin-top:0;
+    width:40%;
+    border-color: purple;
+    height:5%;
+    border-radius:5%;
+    /* margin-bottom:5%; */
+}
+
+.linebreaker{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 5vw;
+    margin-top:10%;
+    opacity: 90%;
+    filter: contrast(6px);
+
+    /* filter: drop-shadow(90px); */
+}
+.smol
+{
+    width: 75%;
+    height: 3vw;
+}
+
+/* .linebreaker>hr{
+    height:2px;
+    border-radius:10rem;
+    width:80%;
+} */
+
+.rl{
+    background-color: #DB4437;
+}
+
+.yl{
+    background-color: #F4B400;
+}
+
+.bl{
+    background-color: #4285F4;
+}
+
+.gl{
+    background-color: #0F9D58;
+}
+
+.n1{
+    color:#4285F4
+}
+
+.n2{
+    color:#DB4437;
+}
+
+.name_spacing
+{
+    margin-bottom: 10vh;
+
+}
+
+.n3{
+    color:#F4B400;
+}
+
+.n4{
+    color:#0F9D58
+}
+
+h1{
+    color:rgb(143, 114, 114);
+    margin-top:5%;
+    margin-bottom:10%;
+    font-size: 360%;
+}
+
+h2{
+    margin-top:8%;
+    color:white;
+    font-size:250%;
+    margin-bottom:5%;
+}
+
+.sdg{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 20vw;
+}
+
+.sdg>div{
+    margin-bottom: 10%;
+}
+
+.tech{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 20vw;
+}
+
+img{
+    height:25%;
+}
+.programer
+{
+    height: 5vw;
+}
+
+
+.team{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    height: 20vw;
+}
+
+.logo{
+    display:grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    
+}
+
+.journey{
+    width: 98vw;
+}
+
+.logo>div>img{
+    height:25rem;
+}
+
+/*.team>div:nth-child(even){
+    background-color: aquamarine;
+}
+
+.team>div:nth-child(odd){
+    background-color: aqua;
+}*/
